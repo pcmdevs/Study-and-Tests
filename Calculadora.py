@@ -4,8 +4,8 @@ print(" 3- divisão ")
 print(" 4- multiplicação ")
 
 while True:
-    operacao = int(input("Qual operação deseja realizar? (1-4): "))
-    if operacao >= 1 and operacao <= 4:
+    conta = int(input("Qual operação deseja realizar? (1-4): "))
+    if conta >= 1 and conta <= 4:
         break
     else:
         print("Erro! Digite um número válido entre 1 e 4.")
