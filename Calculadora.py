@@ -3,7 +3,12 @@ print(" 2 - subtração ")
 print(" 3- divisão ")
 print(" 4- multiplicação ")
 
-conta = int(input(" Qual operação deseja realizar? "))
+while True:
+    operacao = int(input("Qual operação deseja realizar? (1-4): "))
+    if operacao >= 1 and operacao <= 4:
+        break
+    else:
+        print("Erro! Digite um número válido entre 1 e 4.")
 
 primeiro_valor = float(input(" Qual o primeiro valor? "))
 segundo_valor = float(input(" Qual o segundo valor? "))
